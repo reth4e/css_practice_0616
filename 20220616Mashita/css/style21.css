@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -26,9 +26,6 @@ header{
   text-decoration: none;
 }
 
-main{
-}
-
 .main_msg{
   font-size: 50px;
   font-weight: normal;
@@ -44,7 +41,7 @@ main{
 .blueback::after{
   position: absolute;
   top: -100%;
-  left: 70%;
+  left: 60%;
   content: "";
   background: url("../img/firstview.jpeg") no-repeat;
   background-size: cover;
