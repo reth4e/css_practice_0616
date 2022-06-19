@@ -1,14 +1,14 @@
 .container {
   width: 100%;
-  max-width: 1000px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 header{
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin-bottom: 350px;
+  margin-bottom: 330px;
 }
 
 .header_logo{
@@ -41,7 +41,7 @@ header{
 .blueback::after{
   position: absolute;
   top: -100%;
-  left: 60%;
+  left: 54%;
   content: "";
   background: url("../img/firstview.jpeg") no-repeat;
   background-size: cover;
